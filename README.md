@@ -10,7 +10,7 @@ Python Interactive Deepweb-oriented Rapid Intelligent Link Analyzer - это д�
 # pip install aiohttp~=3.7.2
  =====================================================================================
 
-
+# Наша новая группа  SOFT на PYTHON  https://t.me/python_softs  (подписываемся добавляем свои скрипты,скачивай наши)
 =====================================================================================
 # Опции
 Usage: Web scanner.py  [OPTIONS]
@@ -57,3 +57,4 @@ Usage: Web scanner.py  [OPTIONS]
 
 python3 ./Web scanner.py -m 2048 -L darkweb_sites_list.txt --user-agent "Pantusha/2.0 (4.2BSD)"
 
+Наша новая группа  SOFT на PYTHON  https://t.me/python_softs  (подписываемся добавляем свои скрипты,скачивай наши)
