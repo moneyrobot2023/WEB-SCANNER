@@ -4,7 +4,7 @@ WEB SCANNER: Python Interactive Deepweb-ориентированный Rapid Int
 Python Interactive Deepweb-oriented Rapid Intelligent Link Analyzer - это действительно быстрый прототип асинхронного веб-сканера, разработанный командой Bright Search для всех этичных нетсталкеров. Написан на python. Сканер имеет большую скорость работы, имеет поддержку proxy. Сканирует структуру сайта, ищет файлы, каталоги, которые могут содержать критическую информацию.
 
 # Опции
-Usage: pidrila.py [OPTIONS]
+Usage: Web scanner.py  [OPTIONS]
 
 # Options:
   -U, --user-agent TEXT           User-Agent
@@ -37,4 +37,14 @@ Usage: pidrila.py [OPTIONS]
         <img align="center" src="https://raw.githubusercontent.com/enemy-submarine/pidrila/main/Pidrila.png">
 </p>
 
+Примеры использования
+Сканировать один сайт clearweb
+
+ python3 ./Web scanner.py -u http://silenthouse.yoba -M 128
+Сканирование одного сайта onion
+
+ python3 ./Web scanner.py -u http://zqktlwi4fecvo6ro.onion -m 16 -M 16 --proxy=socks5h://127.0.0.1:9050
+Быстрое пакетное сканирование с помощью пользовательского агента пользователя
+
+python3 ./Web scanner.py -m 2048 -L darkweb_sites_list.txt --user-agent "Pantusha/2.0 (4.2BSD)"
 
