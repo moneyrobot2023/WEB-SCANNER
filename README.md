@@ -33,5 +33,8 @@ Usage: pidrila.py [OPTIONS]
 Поддержка HTTP и SOCKS прокси
 Рандомизация пользовательских агентов
 # Скриншот
+<p align="center">
+        <img align="center" src="https://raw.githubusercontent.com/enemy-submarine/pidrila/main/Pidrila.png">
+</p>
 
 
